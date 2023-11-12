@@ -1,1 +1,9 @@
-
+import tensorflow as tf
+from kaggle_datasets import KaggleDatasets
+import numpy as np
+from tensorflow.keras import datasets, layers, models
+import matplotlib.pyplot as plt
+from tensorflow.keras.optimizers import Adam
+import time
+from tensorflow.keras.applications import VGG19
+print("Tensorflow version " + tf.__version__)
